@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>  
+        <h1>Conversor de Moedas</h1>
+        <form action="conversor.php" method="get">
+            <label for="din">Quantos reais vc tem na cartira?</label>
+            <input type="number" name="din" id="din" step="0.01" required>
+            <input type="submit" value="Converter">
+    </main>
+    <button type="button" onclick="window.location.href='../../index.php'">Voltar</button>
+</body>
+</html>
